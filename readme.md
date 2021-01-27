@@ -1,5 +1,9 @@
 # README
 
+## devices 支持（工作中测试过的）
+
+huawei ce系列、s系列、Eudemon系列
+
 ## 环境搭建
 
 ### 在线环境搭建
