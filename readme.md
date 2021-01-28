@@ -9,7 +9,7 @@ huawei ce系列、s系列、Eudemon系列
 ### 在线环境搭建
 
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.douban.com/simple
 ```
 
 ### 离线环境搭建
