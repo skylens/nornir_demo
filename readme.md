@@ -31,5 +31,3 @@ pip install --no-index --find-links=c:\pip -r requirements.txt
 ```
 python network_check.py
 ```
-
-## test
