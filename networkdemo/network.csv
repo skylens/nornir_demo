@@ -1,0 +1,2 @@
+num,hostname,IP,username,password,port,secret
+1,F04_45U_Iaccess_CE6855_Iaccess_01,10.20.1.1,admin,passw0rd,22,

@@ -1,2 +1,14 @@
+#---
+#defaults:
+#  username: admin
+#  password: admin
+#
+huawei:
+  username: admin
+  password: huawei
+  platform: huawei
 
-
+h3c:
+  username: admin
+  password: admin
+  platform: hp_comware

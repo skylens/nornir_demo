@@ -1,63 +1,23 @@
 ---
-HuaWei_CE16804:
-  hostname: 10.10.10.1
-  data:
-    cmds:
-      - display clock
-      - display version
-      - display alarm active
-      - display trapbuffer
-      - display device temperature all
-      - display device fan
-      - display device power
-      - display device power system
-      - display cpu
-      - display memory
-      - display current-configuration
+HuaWei_NE40E:
+  hostname: 172.16.32.114
+  groups:
+    - huawei
 
-HuaWei_CE6881:
-  hostname: 10.10.10.2
-  data:
-    cmds:
-      - display clock
-      - display version
-      - display alarm active
-      - display trapbuffer
-      - display device temperature all
-      - display device fan
-      - display device power
-      - display device power system
-      - display cpu
-      - display memory
-      - display current-configuration
+H3C_VSR2000:
+  hostname: 172.16.32.113
+  groups:
+    - h3c
 
-HuaWei_S5320:
-  hostname: 10.10.10.3
-  data:
-    cmds:
-      - display clock
-      - display version
-      - display alarm active
-      - display trapbuffer
-      - display temperature all
-      - display fan
-      - display power
-      - display cpu-usage
-      - display memory-usage
-      - display current-configuration
-
-HuaWei_Eudemon1000E:
-  hostname: 10.10.10.4
-  data:
-    cmds:
-      - display clock
-      - display version
-      - display alarm active
-      - display trapbuffer
-      - display temperature all
-      - display voltage all
-      - display fan
-      - display power system
-      - display cpu-usage
-      - display memory-usage
-      - display current-configuration
+#HuaWei_NE40E:
+#  hostname: 172.16.32.114
+#  data:
+#    cmds:
+#      - display clock
+#      - display version
+#      - display alarm active
+#      - display trapbuffer
+#      - display device
+#      - display cpu-usage
+#      - display memory
+#      - display current-configuration
