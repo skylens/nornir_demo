@@ -1,14 +1,18 @@
-#---
+---
+nxos:
+  username: admin
+  password: Admin_1234!
+  port: 22
 #defaults:
 #  username: admin
 #  password: admin
 #
-huawei:
-  username: admin
-  password: huawei
-  platform: huawei
-
-h3c:
-  username: admin
-  password: admin
-  platform: hp_comware
+#huawei:
+#  username: admin
+#  password: huawei
+#  platform: huawei
+#
+#h3c:
+#  username: admin
+#  password: admin
+#  platform: hp_comware

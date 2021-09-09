@@ -1,13 +1,23 @@
 ---
-HuaWei_NE40E:
-  hostname: 172.16.32.114
+sbx-nxos:
+  hostname: sbx-nxos-mgmt.cisco.com
   groups:
-    - huawei
+    - nxos
 
-H3C_VSR2000:
-  hostname: 172.16.32.113
+sandbox-nxos-1
+  hostname: sandbox-nxos-1.cisco.com
   groups:
-    - h3c
+    - nxos
+
+#HuaWei_NE40E:
+#  hostname: 172.16.32.114
+#  groups:
+#    - huawei
+#
+#H3C_VSR2000:
+#  hostname: 172.16.32.113
+#  groups:
+#    - h3c
 
 #HuaWei_NE40E:
 #  hostname: 172.16.32.114
