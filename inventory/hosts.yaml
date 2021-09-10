@@ -13,25 +13,28 @@ csr1000vdeveloper:
   hostname: sandbox-iosxe-latest-1.cisco.com
   groups:
     - cisco_iosv
+    - cisco
 
 nxos1:
   hostname: sbx-nxos-mgmt.cisco.com
   groups:
     - cisco_nxosv
+    - cisco
 
-nxos2:
-  hostname: sandbox-nso-1.cisco.com
-  username: developer
-  password: Services4Ever
-  platform: cisco_nxos
-  groups:
-    - cisco_nxosv
+#nos:
+#  hostname: sandbox-nso-1.cisco.com
+#  username: developer
+#  password: Services4Ever
+#  platform: linux
+#  groups:
+#    - cisco
 
 csr1000vadmin:
   hostname: sbx-iosxr-mgmt.cisco.com
   username: admin
   groups:
     - cisco_iosv
+    - cisco
 
 
 #HuaWei_NE40E:
