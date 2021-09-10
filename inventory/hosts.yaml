@@ -1,21 +1,29 @@
 ---
-HuaWei_NE40E:
-  hostname: 172.16.32.114
-  groups:
-    - huawei
-
-H3C_VSR2000:
-  hostname: 172.16.32.113
-  groups:
-    - h3c
+#HuaWei_NE40E:
+#  hostname: 172.16.32.114
+#  groups:
+#    - huawei
+#
+#H3C_VSR2000:
+#  hostname: 172.16.32.113
+#  groups:
+#    - h3c
 
 csr1000vdeveloper:
-  hostname: ios-xe-mgmt-latest.cisco.com
+  hostname: sandbox-iosxe-latest-1.cisco.com
   groups:
     - cisco_iosv
 
-nxos:
+nxos1:
   hostname: sbx-nxos-mgmt.cisco.com
+  groups:
+    - cisco_nxosv
+
+nxos2:
+  hostname: sandbox-nso-1.cisco.com
+  username: developer
+  password: Services4Ever
+  platform: cisco_nxos
   groups:
     - cisco_nxosv
 

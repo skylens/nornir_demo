@@ -1,5 +1,5 @@
 ---
 port: 22
-username: admin
-password: huawei
-platform: huawei
+#username: admin
+#password: huawei
+#platform: huawei
