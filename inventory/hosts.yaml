@@ -9,7 +9,7 @@ H3C_VSR2000:
   groups:
     - h3c
 
-csr1000v:
+csr1000vdeveloper:
   hostname: ios-xe-mgmt-latest.cisco.com
   groups:
     - cisco_iosv
@@ -18,6 +18,13 @@ nxos:
   hostname: sbx-nxos-mgmt.cisco.com
   groups:
     - cisco_nxosv
+
+csr1000vadmin:
+  hostname: sbx-iosxr-mgmt.cisco.com
+  username: admin
+  groups:
+    - cisco_iosv
+
 
 #HuaWei_NE40E:
 #  hostname: 172.16.32.114
